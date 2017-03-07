@@ -1,0 +1,13 @@
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>City</th> 
+    <th>Country</th>
+  </tr>
+  <tr *ngFor="let customer of customerList">
+    <td>{{ customer.Name }}</td>
+    <td>{{ customer.City }}</td> 
+    <td>{{ customer.Country }}</td>
+  </tr>
+  
+</table>
